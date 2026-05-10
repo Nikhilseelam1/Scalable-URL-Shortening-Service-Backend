@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Production-grade URL Shortener built with Node.js, Express, MongoDB, Redis, and BullMQ",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
     "start:worker": "node worker.js",
